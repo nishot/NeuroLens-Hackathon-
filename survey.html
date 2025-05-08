@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NeuroLens Pre-Survey</title>
+  <link rel="stylesheet" href="stylesforpresurvey.css" />
+</head>
+<body>
+  <div class="logo">
+    <div class="logo2">
+      <img src="newlogo.png" alt="NeuroLens Logo" />
+    </div>
+    </div>
+  
+  <div class="container">
+    <h1>First Time Survey</h1>
+    <form id="surveyForm" action="submit_survey.php" method="POST">
+      <div class="question">
+        <label>1. How often do you journal or reflect on your thoughts?</label>
+        <div class="option"><input type="radio" name="q1" value="Daily" required /> Daily</div>
+        <div class="option"><input type="radio" name="q1" value="Weekly" /> Weekly</div>
+        <div class="option"><input type="radio" name="q1" value="Monthly" /> Monthly</div>
+        <div class="option"><input type="radio" name="q1" value="Rarely" /> Rarely</div>
+      </div>
+
+      <div class="question">
+        <label>2. How do you currently track your mental wellness?</label>
+        <div class="option"><input type="radio" name="q2" value="Apps" required /> Apps</div>
+        <div class="option"><input type="radio" name="q2" value="Paper journal" /> Paper journal</div>
+        <div class="option"><input type="radio" name="q2" value="Memory" /> Memory</div>
+        <div class="option"><input type="radio" name="q2" value="Not tracking" /> Not tracking</div>
+      </div>
+
+      <div class="question">
+        <label>3. How frequently do you experience stress or anxiety?</label>
+        <div class="option"><input type="radio" name="q3" value="Daily" required /> Daily</div>
+        <div class="option"><input type="radio" name="q3" value="Few times a week" /> Few times a week</div>
+        <div class="option"><input type="radio" name="q3" value="Occasionally" /> Occasionally</div>
+        <div class="option"><input type="radio" name="q3" value="Rarely" /> Rarely</div>
+      </div>
+
+      <div class="question">
+        <label>4. Do you currently use any form of guided therapy or self-help resources?</label>
+        <div class="option"><input type="radio" name="q4" value="Yes, regularly" required /> Yes, regularly</div>
+        <div class="option"><input type="radio" name="q4" value="Yes, sometimes" /> Yes, sometimes</div>
+        <div class="option"><input type="radio" name="q4" value="No, but I'm interested" /> No, but I'm interested</div>
+        <div class="option"><input type="radio" name="q4" value="No" /> No</div>
+      </div>
+
+      <div class="question">
+        <label>5. How comfortable are you sharing your thoughts with an AI system?</label>
+        <div class="option"><input type="radio" name="q5" value="Very comfortable" required /> Very comfortable</div>
+        <div class="option"><input type="radio" name="q5" value="Somewhat comfortable" /> Somewhat comfortable</div>
+        <div class="option"><input type="radio" name="q5" value="Neutral" /> Neutral</div>
+        <div class="option"><input type="radio" name="q5" value="Uncomfortable" /> Uncomfortable</div>
+      </div>
+
+      <div class="question">
+        <label>6. What is your primary goal using NeuroLens?</label>
+        <div class="option"><input type="radio" name="q6" value="Track emotional health" required /> Track emotional health</div>
+        <div class="option"><input type="radio" name="q6" value="Identify patterns" /> Identify patterns</div>
+        <div class="option"><input type="radio" name="q6" value="Improve mood" /> Improve mood</div>
+        <div class="option"><input type="radio" name="q6" value="Curiosity" /> Curiosity</div>
+      </div>
+
+      <div class="question">
+        <label>7. How would you describe your tech savviness?</label>
+        <div class="option"><input type="radio" name="q7" value="Very tech-savvy" required /> Very tech-savvy</div>
+        <div class="option"><input type="radio" name="q7" value="Average" /> Average</div>
+        <div class="option"><input type="radio" name="q7" value="Basic knowledge" /> Basic knowledge</div>
+        <div class="option"><input type="radio" name="q7" value="Not comfortable with tech" /> Not comfortable with tech</div>
+      </div>
+
+      <div class="question">
+        <label>8. What type of input would you prefer to use with the app?</label>
+        <div class="option"><input type="radio" name="q8" value="Voice recordings" required /> Voice recordings</div>
+        <div class="option"><input type="radio" name="q8" value="Text entries" /> Text entries</div>
+        <div class="option"><input type="radio" name="q8" value="Both equally" /> Both equally</div>
+        <div class="option"><input type="radio" name="q8" value="Other" /> Other</div>
+      </div>
+
+      <div class="question">
+        <label>9. Would you benefit from daily mental health check-ins?</label>
+        <div class="option"><input type="radio" name="q9" value="Yes" required /> Yes</div>
+        <div class="option"><input type="radio" name="q9" value="Maybe" /> Maybe</div>
+        <div class="option"><input type="radio" name="q9" value="No" /> No</div>
+      </div>
+
+      <div class="question">
+        <label>10. Do you want to receive progress summaries?</label>
+        <div class="option"><input type="radio" name="q10" value="Yes, weekly" required /> Yes, weekly</div>
+        <div class="option"><input type="radio" name="q10" value="Yes, monthly" /> Yes, monthly</div>
+        <div class="option"><input type="radio" name="q10" value="Only if I ask" /> Only if I ask</div>
+        <div class="option"><input type="radio" name="q10" value="No" /> No</div>
+      </div>
+
+      <button type="submit">Submit Survey</button>
+    </form>
+  </div>
+</body>
+</html>
